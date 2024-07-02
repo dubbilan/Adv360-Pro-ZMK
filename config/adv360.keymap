@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1   &kp N2    &kp N3     &kp N4  &kp N5               &tog 1                                                                      &mo 3  &kp N6  &kp N7     &kp N8    &kp N9     &kp N0  &kp MINUS
-  &kp CAPS      &kp Q    &kp W     &kp F      &kp P   &kp B                &none                                                                      &none   &kp J   &kp L      &kp U     &kp Y   &kp SEMI   &kp BSLH
-   &kp ESC      &kp A    &kp R     &kp S      &kp T   &kp G                &none  &kp LCTRL  &kp LALT                         &kp LGUI  &kp RCTRL    &tog 4   &kp M   &kp N      &kp E     &kp I      &kp O    &kp SQT
- &kp LSHFT      &kp Z    &kp X     &kp C      &kp D   &kp V                                  &kp HOME                        &kp PG_UP                        &kp K   &kp H  &kp COMMA   &kp DOT   &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp TAB  &kp LEFT  &kp RIGHT                    &kp SPACE    &kp DEL   &kp END                  &lt 2 PAGE_DOWN  &kp ENTER  &kp BSPC          &kp UP   &kp DOWN  &kp LEFT  &kp RIGHT      &mo 2
+ &kp EQUAL     &kp N1   &kp N2    &kp N3            &kp N4  &kp N5               &tog 1                                                                         &mo 3  &kp N6            &kp N7     &kp N8    &kp N9     &kp N0    &kp ESC
+  &kp CAPS      &kp Q    &kp W     &kp F             &kp P   &kp B                &none                                                                         &none   &kp J             &kp L      &kp U     &kp Y   &kp SEMI   &kp BSLH
+   &kp ESC      &kp A    &kp R     &kp S  &mt LEFT_SHIFT T   &kp G                &none  &kp LCTRL  &kp LALT                   &kp LGUI    &kp RCTRL           &tog 4   &kp M  &mt LEFT_SHIFT N      &kp E     &kp I      &kp O    &kp SQT
+ &kp LSHFT      &kp Z    &kp X     &kp C             &kp D   &kp V                                  &kp HOME                  &kp PG_UP                                 &kp K             &kp H  &kp COMMA   &kp DOT   &kp FSLH  &kp RSHFT
+     &mo 2  &kp GRAVE  &kp TAB  &kp LEFT         &kp RIGHT                    &kp SPACE    &kp DEL   &kp END                      &mo 2  &lt 4 ENTER  &lt 4 BACKSPACE                    &kp UP   &kp DOWN  &kp LEFT  &kp RIGHT      &mo 2
             >;
         };
 
@@ -64,7 +64,7 @@
  &trans        &kp TILDE        &kp AT_SIGN       &kp HASH    &kp DOLLAR       &kp PERCENT             &none                                                   &none   &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS      &kp CARET   &trans
  &trans  &kp EXCLAMATION  &kp DOUBLE_QUOTES      &kp COLON  &kp QUESTION         &kp GRAVE             &none  &trans  &trans                  &trans  &trans   &none       &kp MINUS     &kp EQUAL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET       &kp PIPE   &trans
  &trans    &kp SEMICOLON   &kp SINGLE_QUOTE  &kp LESS_THAN     &kp SLASH  &kp GREATER_THAN                            &trans                  &trans                  &kp UNDERSCORE      &kp PLUS        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp BACKSLASH   &trans
- &trans           &trans             &trans         &trans        &trans                              &trans  &trans  &trans                  &trans  &trans  &trans                        &trans                &trans                 &trans         &trans   &trans
+ &trans        &kp LC(D)          &kp LC(X)      &kp LC(C)     &kp LC(V)                              &trans  &trans  &trans                  &trans  &trans  &trans                        &trans                &trans                 &trans         &trans   &trans
             >;
         };
 
@@ -80,11 +80,11 @@
 
         layer_nav {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans    &trans          &trans     &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &kp HOME    &kp UP_ARROW    &kp END  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans    &trans          &trans     &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans            &trans          &trans     &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans         &trans    &trans          &trans     &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans    &kp PAGE_UP  &kp HOME    &kp UP_ARROW    &kp END  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                         &trans   &kp TAB  &kp LEFT_SHIFT     &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                   &trans          &trans     &trans  &trans  &trans
             >;
         };
 
