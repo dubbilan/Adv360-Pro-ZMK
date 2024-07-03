@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1   &kp N2    &kp N3     &kp N4  &kp N5                     &tog 1                                                                       &mo 3  &kp N6  &kp N7     &kp N8    &kp N9     &kp N0    &kp ESC
-  &kp CAPS      &kp Q    &kp W     &kp F      &kp P   &kp B                      &none                                                                       &none   &kp J   &kp L      &kp U     &kp Y   &kp SEMI   &kp BSLH
-   &kp ESC      &kp A    &kp R     &kp S      &kp T   &kp G                      &none  &kp LCTRL  &kp LALT                   &kp LGUI    &kp RCTRL         &tog 4   &kp M   &kp N      &kp E     &kp I      &kp O    &kp SQT
+ &kp EQUAL     &kp N1   &kp N2    &kp N3     &kp N4  &kp N5                 &tog 1                                                                           &mo 3  &kp N6  &kp N7     &kp N8    &kp N9     &kp N0    &kp ESC
+  &kp CAPS      &kp Q    &kp W     &kp F      &kp P   &kp B                 &tog 5                                                                           &none   &kp J   &kp L      &kp U     &kp Y   &kp SEMI   &kp BSLH
+   &kp ESC      &kp A    &kp R     &kp S      &kp T   &kp G                  &none      &kp LCTRL  &kp LALT                   &kp LGUI    &kp RCTRL         &tog 4   &kp M   &kp N      &kp E     &kp I      &kp O    &kp SQT
  &kp LSHFT      &kp Z    &kp X     &kp C      &kp D   &kp V                                        &kp HOME                  &kp PG_UP                               &kp K   &kp H  &kp COMMA   &kp DOT   &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp TAB  &kp LEFT  &kp RIGHT                    &mt LCTRL SPACE  &lt 4 DEL   &kp END                      &mo 2  &lt 4 ENTER  &kp BACKSPACE          &kp UP   &kp DOWN  &kp LEFT  &kp RIGHT      &mo 2
+     &mo 2  &kp GRAVE  &kp TAB  &kp LEFT  &kp RIGHT                    &lt 4 SPACE  &mt LCTRL DEL   &kp END                      &mo 2  &lt 4 ENTER  &kp BACKSPACE          &kp UP   &kp DOWN  &kp LEFT  &kp RIGHT      &mo 2
             >;
         };
 
@@ -85,6 +85,16 @@
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                         &trans   &kp TAB  &kp LEFT_SHIFT     &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                   &trans          &trans     &trans  &trans  &trans
+            >;
+        };
+
+        layer_danish {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans     &trans     &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &kp RA(W)     &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &kp RA(L)
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &kp RA(Q)     &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans     &trans     &trans
             >;
         };
 
