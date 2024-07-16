@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &kp LC(LS(F))          &kp N1        &kp N2   &kp N3     &kp N4  &kp N5                     &tog 1                                                                      &mo 3  &kp N6  &kp N7     &kp N8    &kp N9     &kp N0      &mo 2
-      &kp CAPS           &kp Q         &kp W    &kp F      &kp P   &kp B                     &tog 5                                                                      &none   &kp J   &kp L      &kp U     &kp Y   &kp SEMI   &kp BSLH
-         &mo 2           &kp A         &kp R    &kp S      &kp T   &kp G            &kp LC(LS(SQT))  &kp LCTRL  &kp LALT                  &kp LGUI    &kp RCTRL         &tog 4   &kp M   &kp N      &kp E     &kp I      &kp O    &kp SQT
-     &kp LSHFT           &kp Z         &kp X    &kp C      &kp D   &kp V                                        &kp HOME                     &mo 2                               &kp K   &kp H  &kp COMMA   &kp DOT   &kp FSLH  &kp RSHFT
-       &kp ESC  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp TAB  &kp LCTRL                        &lt 4 SPACE    &kp DEL   &kp END                     &mo 2  &lt 4 ENTER  &kp BACKSPACE          &kp UP   &kp DOWN  &kp LEFT  &kp RIGHT    &kp ESC
+ &kp LC(LS(F))          &kp N1        &kp N2   &kp N3     &kp N4  &kp N5                     &tog 1                                                                        &mo 3  &kp N6  &kp N7     &kp N8    &kp N9     &kp N0      &mo 2
+      &kp CAPS           &kp Q         &kp W    &kp F      &kp P   &kp B                     &tog 5                                                                        &none   &kp J   &kp L      &kp U     &kp Y   &kp SEMI   &kp BSLH
+       &kp ESC           &kp A         &kp R    &kp S      &kp T   &kp G            &kp LC(LS(SQT))  &kp LCTRL    &kp LALT                  &kp LGUI    &kp RCTRL         &tog 4   &kp M   &kp N      &kp E     &kp I      &kp O    &kp SQT
+     &kp LSHFT           &kp Z         &kp X    &kp C      &kp D   &kp V                                        &lt 2 HOME                     &mo 2                               &kp K   &kp H  &kp COMMA   &kp DOT   &kp FSLH  &kp RSHFT
+         &mo 2  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp TAB  &kp LCTRL                        &lt 4 SPACE    &kp DEL     &kp END                     &mo 2  &lt 4 ENTER  &kp BACKSPACE          &kp UP   &kp DOWN  &kp LEFT  &kp RIGHT    &kp ESC
             >;
         };
 
@@ -72,7 +72,7 @@
             bindings = <
   &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none                                                                          &trans            &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none         &none         &none            &bootloader                                                                     &bootloader  &kp PRINTSCREEN       &none       &none   &none   &none   &none
-  &none         &none         &none         &none         &none         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5            &none       &none       &none   &none   &none   &none
+  &none         &none         &none         &none         &none         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5  &kp PRINTSCREEN       &none       &none   &none   &none   &none
   &none         &none         &none         &none    &macro_ver         &none                                  &none                       &none                                                &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none         &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG                   &bl BL_INC  &bl BL_DEC   &none   &none   &none
             >;
