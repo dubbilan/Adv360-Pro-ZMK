@@ -50,11 +50,11 @@
 
         layer_keypad {
             bindings = <
- &kp EQUAL     &kp N1   &kp N2          &kp N3  &kp N4  &kp N5                  &trans                                                                    &mo 3     &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-    &trans      &kp Q    &kp W           &kp E   &kp R   &kp T                   &none                                                                    &none  &kp COMMA   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
-   &kp ESC      &kp A    &kp S           &kp D   &kp F   &kp G                   &none  &mt LCTRL DEL  &kp LALT                  &kp LGUI  &kp RCTRL      &none    &kp DOT   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS    &kp SQT
- &kp LSHFT      &kp Z    &kp X           &kp C   &kp V   &kp B                                           &trans                    &trans                        &kp KP_N0   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &kp RSHFT
-     &mo 2  &kp LC(Z)  &kp TAB  &kp LEFT_SHIFT  &trans                    &kp LEFT_ALT      &kp SPACE    &trans                    &trans     &trans  &kp KP_N0                 &kp UP      &kp DOWN         &trans           &trans      &mo 2
+  &kp N     &kp N1   &kp N2          &kp N3  &kp N4  &kp N5                  &trans                                                                  &mo 3     &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+ &trans     &trans   &trans          &trans  &trans  &trans                   &kp E                                                                  &none  &kp COMMA   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
+ &trans     &trans   &trans          &trans  &trans  &trans                   &kp M  &mt LCTRL DEL   &none                  &kp LGUI  &kp RCTRL      &none    &kp DOT   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS    &kp SQT
+ &trans     &trans   &trans          &trans  &trans  &trans                                         &trans                    &trans                        &kp KP_N0   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &kp RSHFT
+ &trans  &kp LC(Z)  &kp TAB  &kp LEFT_SHIFT  &trans                    &kp LEFT_ALT      &kp SPACE  &trans                    &trans     &trans  &kp KP_N0                 &kp UP      &kp DOWN         &trans           &trans      &mo 2
             >;
         };
 
