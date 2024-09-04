@@ -13,7 +13,7 @@
   "layers": [
     [
        "&kp LC(LS(F))",         "&kp N1",       "&kp N2",  "&kp N3",    "&kp N4", "&kp N5",                    "&tog 1",                                                                                    "&mo 3", "&kp N6", "&kp N7",    "&kp N8",   "&kp N9",    "&kp N0",     "&mo 2",
-            "&kp CAPS",    "&mt Q LS(Q)",        "&kp W",   "&kp F",     "&kp P",  "&kp B",                    "&tog 5",                                                                                    "&none",  "&kp J",  "&kp L",     "&kp U",    "&kp Y",  "&kp SEMI",  "&kp BSLH",
+            "&kp CAPS",    "&mt LS(Q) Q",        "&kp W",   "&kp F",     "&kp P",  "&kp B",                    "&tog 5",                                                                                    "&none",  "&kp J",  "&kp L",     "&kp U",    "&kp Y",  "&kp SEMI",  "&kp BSLH",
              "&kp ESC",          "&kp A",        "&kp R",   "&kp S",     "&kp T",  "&kp G",           "&kp LC(LS(SQT))", "&kp LCTRL",   "&kp LALT",                      "&kp RALT",       "&mo 2",        "&tog 4",  "&kp M",  "&kp N",     "&kp E",    "&kp I",     "&kp O",   "&kp SQT",
            "&kp LSHFT",          "&kp Z",        "&kp X",   "&kp C",     "&kp D",  "&kp V",                                           "&lt 2 HOME",                     "&kp RCTRL",                                  "&kp K",  "&kp H", "&kp COMMA",  "&kp DOT",  "&kp FSLH", "&kp RSHFT",
                "&mo 2", "&kp LEFT_SHIFT", "&kp LEFT_ALT", "&kp TAB", "&kp LCTRL",                         "&lt 4 SPACE",   "&kp DEL",    "&kp END",                      "&kp LGUI", "&lt 4 ENTER", "&kp BACKSPACE",           "&kp UP",  "&kp DOWN", "&kp LEFT", "&kp RIGHT",   "&kp ESC"
