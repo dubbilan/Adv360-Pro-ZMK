@@ -42,7 +42,7 @@
             bindings = <
  &kp LC(LS(F))          &kp N1        &kp N2   &kp N3     &kp N4  &kp N5                     &tog 1                                                                         &mo 3  &kp N6  &kp N7     &kp N8    &kp N9     &kp N0      &mo 2
       &kp CAPS     &mt LS(Q) Q         &kp W    &kp F      &kp P   &kp B                     &tog 5                                                                         &none   &kp J   &kp L      &kp U     &kp Y   &kp SEMI   &kp BSLH
-       &kp ESC           &kp A         &kp R    &kp S      &kp T   &kp G            &kp LC(LS(SQT))  &kp LCTRL    &kp LALT                   &kp RALT        &mo 2         &tog 4   &kp M   &kp N      &kp E     &kp I      &kp O    &kp SQT
+       &kp ESC           &kp A         &kp R    &kp S      &kp T   &kp G            &kp LC(LS(SQT))  &kp LCTRL    &kp LALT                   &kp LALT        &mo 2         &tog 4   &kp M   &kp N      &kp E     &kp I      &kp O    &kp SQT
      &kp LSHFT           &kp Z         &kp X    &kp C      &kp D   &kp V                                        &lt 2 HOME                  &kp RCTRL                               &kp K   &kp H  &kp COMMA   &kp DOT   &kp FSLH  &kp RSHFT
          &mo 2  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp TAB  &kp LCTRL                        &lt 4 SPACE    &kp DEL     &kp END                   &kp LGUI  &lt 4 ENTER  &kp BACKSPACE          &kp UP   &kp DOWN  &kp LEFT  &kp RIGHT    &kp ESC
             >;
@@ -50,11 +50,11 @@
 
         layer_keypad {
             bindings = <
-  &kp N     &kp N1   &kp N2          &kp N3  &kp N4  &kp N5                  &trans                                                                  &mo 3     &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
- &trans     &trans   &trans          &trans  &trans  &trans                   &kp E                                                                  &none  &kp COMMA   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
- &trans     &trans   &trans          &trans  &trans  &trans                   &kp M  &mt LCTRL DEL   &none                  &kp LGUI  &kp RCTRL      &none    &kp DOT   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS    &kp SQT
- &trans     &trans   &trans          &trans  &trans  &trans                                         &trans                    &trans                        &kp KP_N0   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &kp RSHFT
- &trans  &kp LC(Z)  &kp TAB  &kp LEFT_SHIFT  &trans                    &kp LEFT_ALT      &kp SPACE  &trans                    &trans     &trans  &kp KP_N0                 &kp UP      &kp DOWN         &trans           &trans      &mo 2
+  &kp N     &kp N1          &kp N2  &kp N3  &kp N4  &kp N5                  &trans                                                                  &mo 3     &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+ &trans     &trans          &trans  &trans  &trans  &trans                   &kp E                                                                  &none  &kp COMMA   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
+ &trans     &trans          &trans  &trans  &trans  &trans                   &kp M  &mt LCTRL DEL   &none                  &kp LGUI  &kp LCTRL      &none    &kp DOT   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS    &kp SQT
+ &trans     &trans          &trans  &trans  &trans  &trans                                         &trans                    &trans                        &kp KP_N0   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &kp RSHFT
+ &trans  &kp LC(Z)  &kp LEFT_SHIFT  &trans  &trans                    &kp LEFT_ALT      &kp SPACE  &trans                    &trans     &trans  &kp KP_N0                 &kp UP      &kp DOWN         &trans           &trans      &mo 2
             >;
         };
 
