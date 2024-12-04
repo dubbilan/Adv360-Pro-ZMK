@@ -4,6 +4,7 @@
   "layout": "LAYOUT",
   "layer_names": [
     "base",
+    "modo",
     "keypad",
     "fn",
     "mod",
